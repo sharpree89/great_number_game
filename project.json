@@ -7,6 +7,7 @@
   },
 
   "dependencies": {
+    "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
     "Microsoft.Extensions.Logging.Console": "1.0.0",
     "Microsoft.NETCore.App": {
       "version": "1.0.0",
@@ -20,6 +21,22 @@
     "Nancy.Session.InMemory": "0.9.1-pre",  
     "Nancy.Session.Persistable": "0.9.1-pre", 
     "FSharp.Core": "4.0.1.7-alpha"
+  },
+
+  "tools": {
+      "Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.0.0-preview2-final"
+    },
+
+  "publishOptions": {
+    "include": [
+        "Content",
+        "Views",
+        "web.config"
+    ]
+  },
+
+  "scripts": {
+    "postpublish": "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%"
   },
 
   "frameworks": {
