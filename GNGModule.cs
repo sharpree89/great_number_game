@@ -23,7 +23,7 @@ namespace GNG
                 }
 
                 return View["GNG.sshtml"];
-            });
+            }); 
 
             Post("/process", args =>
             {
@@ -34,9 +34,9 @@ namespace GNG
                 {
                     ViewBag.tooLow = true;
                     ViewBag.showForm = true;
-                    Console.WriteLine("too low");
-                    return View["GNG.sshtml"];
-                }
+                    Console.WriteLine("too low"); 
+                    return View["GNG.sshtml"];    
+                } 
                 else if(guess > num)
                 {
                     ViewBag.tooHigh = true;
@@ -46,8 +46,9 @@ namespace GNG
                 }
                 else if(guess == num)
                 {
-                    ViewBag.correct = true;
+                    ViewBag.correct = true; 
                     ViewBag.showForm = false;
+                    ViewBag.num = num;
                     Console.WriteLine("correct");
                     return View["GNG.sshtml"];
                 }

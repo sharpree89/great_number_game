@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+         <link rel="stylesheet" type="text/css" href="Content/style.css">
          <meta charset="UTF-8">
          <title>Hello</title>
     </head>
     <body>
         <center>
-            <h3>Welcome To The Great Number Game!</h3>
+            <h3>The Great Number Game</h3>
             <h5>I am thinking of a number between 1 and 100.</h5>
-            <h5>Take a guess!</h5>
             
             @If.Context.ViewBag.tooHigh
-                <h4 style="color: red;">That's Too High!</h4>
+                <h4 class="wrong">That's Too High!</h4>
             @EndIf
             
             @If.Context.ViewBag.tooLow
-                <h4 style="color: red;">That's Too Low!</h4>
+                <h4 class="wrong">That's Too Low!</h4>
             @EndIf
             
             @If.Context.ViewBag.correct
-                <h4 style="color: #2ECC71;">Ding Ding Ding!</h4>
+                <h4 class="correct">That's Correct! The Number Was @ViewBag.num</h4>
                 <form action="/clear" method="post">
                     <input type="submit" value="Play Again">
                 </form>

@@ -7,8 +7,8 @@
 -debug:portable
 -nostdlib
 -nologo
-"/Users/preeyasharma/Desktop/great_number_game/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs"
--out:"/Users/preeyasharma/Desktop/great_number_game/bin/Debug/netcoreapp1.0/great_number_game.dll"
+"/Users/preeyasharma/Desktop/C#/great_number_game/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs"
+-out:"/Users/preeyasharma/Desktop/C#/great_number_game/bin/Debug/netcoreapp1.0/great_number_game.dll"
 -r:"/Users/preeyasharma/.nuget/packages/FSharp.Core/4.0.1.7-alpha/lib/netstandard1.6/FSharp.Core.dll"
 -r:"/Users/preeyasharma/.nuget/packages/Microsoft.AspNetCore.Hosting/1.0.0/lib/netstandard1.3/Microsoft.AspNetCore.Hosting.dll"
 -r:"/Users/preeyasharma/.nuget/packages/Microsoft.AspNetCore.Hosting.Abstractions/1.0.0/lib/netstandard1.3/Microsoft.AspNetCore.Hosting.Abstractions.dll"
@@ -130,8 +130,8 @@
 -r:"/Users/preeyasharma/.nuget/packages/System.Xml.ReaderWriter/4.0.11/ref/netstandard1.3/System.Xml.ReaderWriter.dll"
 -r:"/Users/preeyasharma/.nuget/packages/System.Xml.XDocument/4.0.11/ref/netstandard1.3/System.Xml.XDocument.dll"
 -r:"/Users/preeyasharma/.nuget/packages/System.Xml.XmlSerializer/4.0.11/ref/netstandard1.3/System.Xml.XmlSerializer.dll"
--resource:"/Users/preeyasharma/Desktop/great_number_game/obj/Debug/netcoreapp1.0/great_number_gamedotnet-compile.deps.json",great_number_game.deps.json
-"/Users/preeyasharma/Desktop/great_number_game/Bootstrapper.cs"
-"/Users/preeyasharma/Desktop/great_number_game/GNGModule.cs"
-"/Users/preeyasharma/Desktop/great_number_game/Program.cs"
-"/Users/preeyasharma/Desktop/great_number_game/Startup.cs"
+-resource:"/Users/preeyasharma/Desktop/C#/great_number_game/obj/Debug/netcoreapp1.0/great_number_gamedotnet-compile.deps.json",great_number_game.deps.json
+"/Users/preeyasharma/Desktop/C#/great_number_game/Bootstrapper.cs"
+"/Users/preeyasharma/Desktop/C#/great_number_game/GNGModule.cs"
+"/Users/preeyasharma/Desktop/C#/great_number_game/Program.cs"
+"/Users/preeyasharma/Desktop/C#/great_number_game/Startup.cs"
